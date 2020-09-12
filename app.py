@@ -23,7 +23,7 @@ session = Session(engine)
 def welcome():
     return(
     '''
-    Welcome to the Climate Analysis API!
+    Welcome to the Climate Analysis API!<br/>
     Available Routes:
     /api/v1.0/precipitation
     /api/v1.0/stations
